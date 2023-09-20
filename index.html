@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anil kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images\aklogo.jpg">
+    <script src="https://kit.fontawesome.com/88f5f8849a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/aklogo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class=" fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'm <span>A</span>nil <span>K</span>umar </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images\user.jpeg
+        " height="40%" width="50%">
+                </div>
+                <div class="about-col2">
+                    <h1>About me</h1>
+                    <br>
+                    <p>I'm courteous and enthused, and I'm interested in IT and all that
+                        surrounds it. I've recently began a fascination for Java full-stack
+                        programming. Programming languages including Java, HTML, CSS,
+                        JavaScript, Python, and C are among my strong suits. I have
+                        participated in a variety of minor projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experence</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <ul>
+                                <b>
+                                <li>JAVA</li>
+                                <li>python(Basic)</li>
+                                <li>HTML,CSS</li>
+                                <li>SQL- Basics</li>
+                                <li>C-Programming</li>
+                                <li>DSA</li>
+                               </b>
+                                
+                            </ul>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>my internship experience taught me how to work effectively in a professional setting, adapt to changing project requirements, and solve complex technical challenges. I'm excited to apply these skills and continue my growth as a developer in a full-time role. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <ul>
+                                <li>
+                                   <b><span>B.Tech(CSE) with 83%</span><br></b> 
+                                    Mother Theresa Institute of Engineering and Technology<br>
+                                    2020-Till now
+                                </li>
+                                <li>
+                                   <b><span>Intermediate (M.P.C) with 8.15 CGPA</span><br></b> 
+                                    Govt junior College<br>
+                                    2018-2020
+                                </li>
+                                <li>
+                                   <b><span>SSC with 7.0 CGPA</span><br></b> 
+                                    Z.P High school, chowdepalli<br>
+                                    2013-2018
+                                </li>
+                            </ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developement</h2>
+                    <p>Developing the web interfaces</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Programming languages</h2>
+                    <p>Solving the complex problems</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Designing the app requirements </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="containter">
+            <div class="row">
+               
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1><br>
+                    <p><a href="mailto:anilh9599@gmail.com" class="hello"><i class="fa-solid fa-envelope"></i>anilh9599@gmail.com<br></a></p><br>
+                    <p><a href="tel:6309313709" class="hello"><i class="fa-solid fa-phone"></i>6309313709</a></p><br>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anilkumar-hasanapuram/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/mr_anilkumar_ak_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/Anilkumar__Ak_"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/Anilkumar-Hasanapuram"><i class="fa-brands fa-github"></i></a>
+                    </div> <br><br>
+                    <a href="images/Anil_kumar_resume.pdf" download="download" class="download">Download Resume</a>
+
+                </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="your name" required>
+                            <input type="email" name="Email" placeholder="your email" required >
+                            <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                            <br>
+                            <button type="submit" class="download">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 All rights reserved | This portfolio made by <span>Anil Kumar</span>.
+        </div>
+       
+    </div>
+    <script>
+        var side = document.getElementById("sidemenu");
+function openmenu()
+{
+    side.style.right="0";
+}
+function closemenu()
+{
+    side.style.right="-200px";
+}
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbww_KxmkAT8fQA_kF_YzLT_AEX5vUbNL99eUJhhCXGInEykVktwH81N9bwGNYW3jUGQYg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{ msg.innerHTML="Message sent sucessfully !"
+            setTimeout(
+                function()
+                {
+                    msg.innerHTML="";
+                },2000)
+                form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
